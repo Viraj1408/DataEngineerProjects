@@ -1,4 +1,4 @@
-# MongoDB to Delta Lake Pipeline (Local Setup)
+# MongoDB to Delta Lake Pipeline
 
 ## Overview
 
