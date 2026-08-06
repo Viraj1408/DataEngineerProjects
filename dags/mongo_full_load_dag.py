@@ -3,7 +3,7 @@ from airflow import DAG
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 
 dag_name = 'mongo_full_load_dag'
-start_date = datetime(2026, 7, 17)
+start_date = datetime(2026, 8, 7)
 l_interval_schedule = "30 6 * * *"
 mongo_uri = 'mongodb+srv://<username>:<password>@cluster.mongodb.net'
 default_args = {
