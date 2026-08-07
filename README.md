@@ -41,10 +41,10 @@ MongoDB > PySpark > Bronze (Raw) > Silver (Cleaned) > Gold (Analytics)
 
 ## 📁 Project Structure
 
-├── dags/ # Airflow DAGs for orchestration
-├── jobs/ # PySpark ETL jobs
-├── schema/ # Schema definitions
-├── data/ # Output Delta tables (bronze/silver/gold)
+- ├── dags/ # Airflow DAGs for orchestration
+- ├── jobs/ # PySpark ETL jobs
+- ├── schema/ # Schema definitions
+- ├── data/ # Output Delta tables (bronze/silver/gold)
 
 ---
 
